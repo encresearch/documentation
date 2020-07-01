@@ -19,7 +19,7 @@ hold off
 
 %%Voltage Equation
 V0=-0.43                                                %voltage at the surface for both trials in V 
-x4=0:0.1E-8:6E-8;
+x4=0:0.1E-8:6.6E-8;
 x3=0:0.1E-8:2.2E-8;
 V1=(q/(eps0*eps))*(p1-n).*((x3.^2)/2)-E01.*x3-V0;       %Voltage versus crystal depth for first trial
 V2=(q/(eps0*eps))*(p2-n).*((x4.^2)/2)-E02.*x4-V0;       %Voltage versus crystal depth for second trial   
